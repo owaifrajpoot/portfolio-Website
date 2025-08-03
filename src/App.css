@@ -1,0 +1,38 @@
+/* Home Page */
+.App {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Text inherits correct color */
+.overlay p,
+.overlay span,
+.overlay u,
+.overlay li,
+.overlay h1,
+.bio-container p,
+.bio-container h1,
+.bio-container a {
+  color: inherit;
+  font-family: 'Courier New', monospace;
+}
+
+.command-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+/* Back to home button styling (optional for consistency) */
+.home-button {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}

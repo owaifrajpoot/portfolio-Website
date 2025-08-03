@@ -1,0 +1,64 @@
+.loader-container {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, #0a0a0a 45%, #050505 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.container {
+  width: 260px;
+  max-width: 80vw;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  stroke: white;
+}
+
+.loader path,
+.loader-refl,
+.ripple1 ellipse,
+.ripple2 ellipse {
+  opacity: 0;
+  visibility: hidden;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.loader path:nth-child(1) {
+  stroke: #444;
+}
+.loader path:nth-child(2) {
+  stroke: #999;
+}
+.loader path:nth-child(3) {
+  stroke: white;
+}
+
+.loader-refl {
+  stroke: white;
+  stroke-width: 5.9;
+  filter: blur(1.2px);
+  opacity: 0.07;
+}
+
+ellipse {
+  stroke: white;
+  fill: none;
+  stroke-width: 1.7;
+}
+
+.ripple1 ellipse {
+  filter: drop-shadow(0 0 2px white);
+}
+
+.ripple2 ellipse {
+  filter: drop-shadow(0 0 1px #999);
+}
