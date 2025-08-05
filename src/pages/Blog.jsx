@@ -351,9 +351,9 @@ Creating exceptional user experiences requires a deep understanding of users, th
         </div>
       </div>
 
-      {/* Top Center - owaif-portfolio.com */}
+      {/* Top Center - owaif-portfolio */}
       <div className="top-center">
-        <p>owaif-portfolio.com</p>
+        <p>owaif-portfolio</p>
       </div>
 
       {/* Right Menu - About, Blog, LinkedIn */}

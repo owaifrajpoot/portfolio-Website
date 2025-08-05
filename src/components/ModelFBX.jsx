@@ -29,7 +29,7 @@ export default function ModelFBX(props) {
   useEffect(() => {
     if (fbx) {
       fbx.scale.set(1.7, 1.7, 1.7);
-      fbx.position.set(0, -3.2, 0);
+      fbx.position.set(0, -2.83, 0);
       fbx.rotation.set(0, 0, 0);
 
       mixerRef.current = new THREE.AnimationMixer(fbx);

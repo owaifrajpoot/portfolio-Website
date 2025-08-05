@@ -14,7 +14,7 @@
     const lines = [
       'Based in',
       'Pakistan',
-      'owaif-portfolio.com',
+      'owaif-portfolio',
       'Owaif',
       'Aamir',
       'A Front-end Engineer',
@@ -49,7 +49,7 @@
         </div>
 
         <div className="top-center">
-          <p ref={(el) => (refs.current[2] = el)} data-text="owaif-portfolio.com" />
+          <p ref={(el) => (refs.current[2] = el)} data-text="owaif-portfolio" />
         </div>
 
         <div className="middle-left">

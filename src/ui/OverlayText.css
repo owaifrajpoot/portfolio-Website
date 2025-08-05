@@ -63,8 +63,8 @@
 }
 
 .start-hint {
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 19px;
+  font-size: 21px;
   color: gray;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .bottom-right span:first-child {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 500;
 }
 
@@ -124,16 +124,19 @@
 
 /* Blinking cursor animation */
 @keyframes blinkAnimation {
-  0%, 50% {
+  0%, 70% {
     opacity: 1;
   }
-  51%, 100% {
+  70%, 85% {
     opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
   }
 }
 
 .blink {
-  animation: blinkAnimation 2s infinite;
+  animation: blinkAnimation 4s ease-in-out infinite;
 }
 
 .key-btn {

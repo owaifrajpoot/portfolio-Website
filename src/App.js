@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog from './pages/Blog';
 import About from './pages/About';
 import Loader from './components/Loader';
+import MobileWarning from './components/MobileWarning';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <Router>
+      <MobileWarning />
       <Routes>
         <Route
           path="/"
